@@ -1,0 +1,169 @@
+(footprint "NS-102"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 2x05, 2.54mm pitch, double rows")
+	(tags "Through hole pin header THT 2x05 2.54mm double row")
+	(property "Reference" "I1"
+		(at 1.27 -2.33 0)
+		(layer "F.SilkS")
+		(uuid "cee5d8fc-dd29-4ef5-aeb2-89fd11def776")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NS-102"
+		(at 1.27 12.49 0)
+		(layer "F.Fab")
+		(uuid "75a76533-8e46-4021-8638-5dd26252c134")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fb5a379-5dd3-4800-94ff-82db6d941bea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.pollin.de/productdownloads/D120958D.PDF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d35e58e2-ef3e-49c0-b5ee-8468542b6e6f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SELF-EXCITED INVERTER for EL∗ LIGHTS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fd1e458-d107-4ea6-9a0e-d5c99fc68f59")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.524 -1.27)
+		(end 14.478 12.954)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "08bc5c39-ad10-41ab-8d06-924d9b6e1bab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 5.08 -90)
+		(layer "F.Fab")
+		(uuid "fd8ecb9a-ef7c-4c83-99a0-1948cf5f937b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at 0 2.963333)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9aed31fd-39ad-4575-a326-18b53f5614de")
+	)
+	(pad "" np_thru_hole oval
+		(at 12.954 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e3e03380-7c98-4968-9956-851112b99807")
+	)
+	(pad "" np_thru_hole oval
+		(at 12.954 2.963333)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d0598505-ebde-4247-a443-47bbebf1c9e9")
+	)
+	(pad "" np_thru_hole oval
+		(at 12.954 5.926666)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "bf07babb-b30b-4199-965a-315a7885517f")
+	)
+	(pad "" np_thru_hole oval
+		(at 12.954 8.89)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "de4227dd-3cae-47be-aa29-d69aa125de5f")
+	)
+	(pad "" np_thru_hole oval
+		(at 12.954 11.684)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "61519067-c874-4ded-94c4-0d6d69e0968a")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5851b872-cc67-42a8-97fb-c3d7393c4ab2")
+	)
+	(pad "2" thru_hole oval
+		(at 0 5.926666)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "86095b89-2bd7-4e64-af83-20cabd43efa8")
+	)
+	(pad "3" thru_hole oval
+		(at 0 8.89)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1bbb97ac-e64d-4e62-81b6-62cf98188228")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x05_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

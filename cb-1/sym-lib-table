@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NEC")(type "KiCad")(uri "${KIPRJMOD}/lib/NEC.kicad_sym")(options "")(descr ""))
+  (lib (name "cb1")(type "KiCad")(uri "${KIPRJMOD}/lib/cb1.kicad_sym")(options "")(descr ""))
+)
